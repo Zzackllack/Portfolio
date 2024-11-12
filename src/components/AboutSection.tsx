@@ -5,8 +5,11 @@ export default function AboutSection() {
   const skills = [
     { category: "Languages", items: ["TypeScript", "Java", "Python", "SQL"] },
     { category: "Frontend", items: ["React", "Tailwind CSS", "HTML/CSS"] },
-    { category: "Backend", items: ["Node.js", "Discord.py, MongoDB"] },
-    { category: "Tools", items: ["Git", "Linux", "Docker", "VS Code"] },
+    { category: "Backend", items: ["Node.js", "Discord.py", "MongoDB"] },
+    {
+      category: "Tools",
+      items: ["Git", "Linux", "Docker", "VS Code", "Jetbrains IDE's"],
+    },
   ];
 
   return (
