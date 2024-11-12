@@ -1,7 +1,17 @@
-import React from "react";
-import { Mail, Github, Globe, Server } from "lucide-react";
+import React, { useState } from "react";
+import { Mail, Github } from "lucide-react";
 
 export default function ContactSection() {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    console.log("Email:", email);
+    console.log("Message:", message);
+  };
+
   return (
     <section id="contact" className="py-20">
       <h2 className="text-4xl font-bold text-center mb-12 glow">
@@ -56,6 +66,44 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12">
+        <h3 className="text-2xl font-semibold text-blue-300 mb-6">
+          Send a Message
+        </h3>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label htmlFor="email" className="block text-gray-300">
+              Your E-Mail
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="w-full p-2 rounded bg-gray-800 text-gray-300"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="message" className="block text-gray-300">
+              Message
+            </label>
+            <textarea
+              id="message"
+              className="w-full p-2 rounded bg-gray-800 text-gray-300"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+          >
+            Send
+          </button>
+        </form>
       </div>
     </section>
   );
