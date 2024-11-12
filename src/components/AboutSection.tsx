@@ -37,9 +37,9 @@ export default function AboutSection() {
           </h3>
           <p className="text-gray-300 leading-relaxed">
             I'm expanding my knowledge in modern web technologies while managing
-            my own NAS and server infrastructure. I enjoy experimenting with new
-            tools and technologies, particularly in areas of system
-            administration and development.
+            my own Synology NAS and a server infrastructure. I enjoy
+            experimenting with new tools and technologies, particularly in areas
+            of system administration, security and development.
           </p>
         </div>
       </div>
