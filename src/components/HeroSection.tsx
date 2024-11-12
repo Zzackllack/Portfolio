@@ -16,7 +16,7 @@ export default function HeroSection() {
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Based in Berlin, Germany, I'm passionate about modern web
-            technologies, coding, and creating innovative solutions.
+            technologies, coding, and anything that resolves around tech.
           </p>
         </div>
 
@@ -24,7 +24,7 @@ export default function HeroSection() {
           <IconBox
             Icon={Code2}
             text="Developer"
-            subtext="TypeScript • Java • Python"
+            subtext="Web • Java • Python"
           />
           <IconBox
             Icon={Terminal}
