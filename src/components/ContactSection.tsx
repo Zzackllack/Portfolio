@@ -16,17 +16,16 @@ export default function ContactSection() {
               Let's Connect
             </h3>
             <p className="text-gray-300">
-              Whether you want to discuss technology, collaborate on projects,
-              or just have a chat about development and tech, I'm always open to
-              connecting with fellow enthusiasts.
+              Whether you want to discuss something, collaborate, or just have a
+              chat, I'm always open to connecting with fellow enthusiasts.
             </p>
             <div className="flex flex-col space-y-4">
               <a
-                href="mailto:mail@zacklack.de"
+                href="mailto:contact@zacklack.de"
                 className="flex items-center space-x-3 text-gray-300 hover:text-blue-400 transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>mail@zacklack.de</span>
+                <span>contact@zacklack.de</span>
               </a>
               <a
                 href="https://github.com/Zzackllack"
