@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         "Python tool for scanning and downloading media files from webpages",
       icon: Bot,
       tech: ["Python", "Web Scraping", "File Management"],
-      link: "#",
+      link: "https://github.com/Zzackllack/Websites/tree/main/Website-scanner",
     },
     {
       title: "NAS Management",
@@ -32,13 +32,13 @@ export default function ProjectsSection() {
       description: "Modern web application showcasing my projects and skills",
       icon: Globe,
       tech: ["React", "TypeScript", "Tailwind"],
-      link: "#",
+      link: "https://github.com/Zzackllack/Portfolio",
     },
     {
       title: "Flipper Zero Scripts",
       description: "Custom scripts and tools for the Flipper Zero device",
       icon: Wrench,
-      tech: ["C", "Hardware", "Security"],
+      tech: ["Tinkering", "Hardware", "Security"],
       link: "#",
     },
     {
