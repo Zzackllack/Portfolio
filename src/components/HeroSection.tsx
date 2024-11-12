@@ -3,7 +3,7 @@ import { Code2, Terminal, Music, Dumbbell } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16">
+    <section className="min-h-screen flex items-center justify-center pt-16 fade-in">
       <div className="text-center space-y-8 max-w-4xl">
         <div className="space-y-4">
           <h1 className="text-6xl font-bold glow">
@@ -11,16 +11,15 @@ export default function HeroSection() {
               Hello, I'm Cédric
             </span>
           </h1>
-          <h2 className="text-2xl text-blue-200 glow">
+          <h2 className="text-2xl text-blue-200 glow slide-up">
             Student Developer & Tech Enthusiast
           </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto slide-up">
             Based in Berlin, Germany, I'm passionate about modern web
             technologies, coding, and anything that resolves around tech.
           </p>
         </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 slide-up">
           <IconBox
             Icon={Code2}
             text="Developer"
@@ -49,7 +48,7 @@ function IconBox({
   subtext: string;
 }) {
   return (
-    <div className="glass p-6 rounded-xl hover-glow">
+    <div className="glass p-6 rounded-xl hover-glow slide-up">
       <Icon className="w-8 h-8 text-blue-400 mb-3 mx-auto" />
       <h3 className="font-semibold text-white mb-1">{text}</h3>
       <p className="text-sm text-gray-300">{subtext}</p>

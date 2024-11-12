@@ -7,19 +7,19 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
+    // Handle form submission logic here -- NEEDS IMPLEMENTATION
     console.log("Email:", email);
     console.log("Message:", message);
   };
 
   return (
-    <section id="contact" className="py-20">
+    <section id="contact" className="py-20 fade-in">
       <h2 className="text-4xl font-bold text-center mb-12 glow">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
           Get in Touch
         </span>
       </h2>
-      <div className="max-w-4xl mx-auto glass p-8 rounded-xl">
+      <div className="max-w-4xl mx-auto glass p-8 rounded-xl slide-up">
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-blue-300">
@@ -67,7 +67,7 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-      <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12">
+      <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12 slide-up">
         <h3 className="text-2xl font-semibold text-blue-300 mb-6">
           Send a Message
         </h3>
