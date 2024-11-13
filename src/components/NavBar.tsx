@@ -36,6 +36,22 @@ export default function NavBar() {
                 {item}
               </a>
             ))}
+            <a
+              href="https://zacklack.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Main Page
+            </a>
+            <a
+              href="https://privat.zacklack.de"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Private Projects
+            </a>
           </div>
         </div>
       </div>
