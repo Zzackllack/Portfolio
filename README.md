@@ -146,3 +146,20 @@ If you are developing a production application, we recommend updating the config
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Code Citations
+
+- License: **MIT**
+- *https://github.com/wchr-aun/resource-based-checklist-generation/tree/7f5702a3f90f0c1bf6759fbb1e5f27abcb5b26ba/frontend/src/features/ScrollToTop/ScrollToTop.tsx*
+
+```js
+scrolled, setScrolled] = useState(false);
+
+useEffect(() => {
+  const handleScroll = () => {
+    setScrolled(window.scrollY > 50);
+  };
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+```
