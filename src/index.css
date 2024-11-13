@@ -1,33 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Comfortaa", sans-serif;
+  }
+}
 
 @layer utilities {
   .animate-gradient {
     background-size: 200% 200%;
     animation: gradient 8s ease infinite;
   }
-
   .glow {
     text-shadow: 0 0 10px rgba(59, 130, 246, 0.5),
       0 0 20px rgba(59, 130, 246, 0.3), 0 0 30px rgba(59, 130, 246, 0.2);
   }
-
   .glass {
     background: rgba(17, 25, 40, 0.75);
     backdrop-filter: blur(12px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.125);
   }
-
   .hover-glow {
     transition: all 0.3s ease;
   }
-
   .hover-glow:hover {
     box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
     transform: translateY(-2px);
   }
-
   .fade-in {
     animation: fadeIn 1s ease-in-out;
   }
@@ -48,18 +51,6 @@
   }
 }
 
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -77,6 +68,18 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 
