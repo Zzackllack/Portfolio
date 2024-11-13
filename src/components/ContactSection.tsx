@@ -13,10 +13,13 @@ export default function ContactSection() {
 
   return (
     <section id="contact" className="relative py-20 fade-in">
-      <div className="absolute inset-0 bg-red-600 bg-opacity-75 flex items-center justify-center z-10">
-        <p className="text-white text-2xl font-bold text-center">
-          Work in progress, sorry, use my E-Mail instead!
-        </p>
+      <div className="absolute inset-0 flex items-center justify-center z-10">
+        <div className="bg-red-600 bg-opacity-75 rounded-xl p-8 w-full h-full flex items-center justify-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-stripes"></div>
+          <p className="text-white text-2xl font-bold text-center z-10 transform rotate-45">
+            Work in progress, sorry, use my E-Mail instead!
+          </p>
+        </div>
       </div>
       <div className="relative max-w-4xl mx-auto glass p-8 rounded-xl slide-up z-0">
         <h2 className="text-4xl font-bold text-center mb-12 glow">
