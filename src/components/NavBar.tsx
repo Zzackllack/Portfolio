@@ -24,7 +24,7 @@ export default function NavBar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <Code2 className="w-6 h-6 text-blue-400" />
-            <span className="font-bold text-xl">Cédric Klinge</span>
+            <span className="font-bold text-xl">Cédric</span>
           </div>
           <div className="hidden md:flex space-x-8">
             {["About", "Projects", "Contact"].map((item) => (

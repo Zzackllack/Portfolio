@@ -13,14 +13,6 @@ export default function ContactSection() {
 
   return (
     <section id="contact" className="relative py-20 fade-in">
-      <div className="absolute inset-0 flex items-center justify-center z-10">
-        <div className="bg-red-600 bg-opacity-75 rounded-xl p-8 w-full h-full flex items-center justify-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-stripes"></div>
-          <p className="text-white text-2xl font-bold text-center z-10 transform rotate-45">
-            Work in progress, sorry, use my E-Mail instead!
-          </p>
-        </div>
-      </div>
       <div className="relative max-w-4xl mx-auto glass p-8 rounded-xl slide-up z-0">
         <h2 className="text-4xl font-bold text-center mb-12 glow">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
@@ -73,11 +65,19 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12 slide-up">
+        <div className="relative max-w-4xl mx-auto glass p-8 rounded-xl mt-12 slide-up">
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <div className="bg-red-600 bg-opacity-75 rounded-xl p-8 w-full h-full flex items-center justify-center relative overflow-hidden">
+              <div className="absolute inset-0 bg-stripes"></div>
+              <p className="text-slate-700 text-1xl font-bold text-center z-10 transform rotate-45">
+                Work in progress, sorry, use my E-Mail instead!
+              </p>
+            </div>
+          </div>
           <h3 className="text-2xl font-semibold text-blue-300 mb-6">
             Send a Message
           </h3>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-4 relative z-0">
             <div>
               <label htmlFor="email" className="block text-gray-300">
                 Your E-Mail
