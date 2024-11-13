@@ -13,14 +13,14 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="py-20">
+    <section id="about" className="py-20 fade-in">
       <h2 className="text-4xl font-bold text-center mb-12 glow">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
           About Me
         </span>
       </h2>
       <div className="grid md:grid-cols-2 gap-8 mb-12">
-        <div className="glass p-6 rounded-xl hover-glow">
+        <div className="glass p-6 rounded-xl hover-glow slide-up">
           <h3 className="text-xl font-semibold mb-4 text-blue-300">
             Background
           </h3>
@@ -31,7 +31,7 @@ export default function AboutSection() {
             applications and managing servers.
           </p>
         </div>
-        <div className="glass p-6 rounded-xl hover-glow">
+        <div className="glass p-6 rounded-xl hover-glow slide-up">
           <h3 className="text-xl font-semibold mb-4 text-blue-300">
             Current Focus
           </h3>
@@ -47,7 +47,7 @@ export default function AboutSection() {
         {skills.map((skillSet) => (
           <div
             key={skillSet.category}
-            className="glass p-6 rounded-xl hover-glow"
+            className="glass p-6 rounded-xl hover-glow slide-up"
           >
             <h4 className="font-semibold text-blue-300 mb-3">
               {skillSet.category}

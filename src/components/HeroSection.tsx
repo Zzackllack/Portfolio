@@ -1,9 +1,13 @@
 import React from "react";
-import { Code2, Terminal, Music, Dumbbell } from "lucide-react";
+import { Code2, Terminal, Music, Dumbbell, ArrowDown } from "lucide-react";
 
 export default function HeroSection() {
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16 fade-in">
+    <section className="min-h-screen flex flex-col items-center justify-center pt-16 fade-in">
       <div className="text-center space-y-8 max-w-4xl">
         <div className="space-y-4">
           <h1 className="text-6xl font-bold glow">
@@ -34,6 +38,12 @@ export default function HeroSection() {
           <IconBox Icon={Dumbbell} text="Athlete" subtext="6 Years of Judo" />
         </div>
       </div>
+      <button
+        onClick={() => scrollToSection("about")}
+        className="mt-16 animate-bounce"
+      >
+        <ArrowDown className="w-10 h-10 text-blue-400" />
+      </button>
     </section>
   );
 }

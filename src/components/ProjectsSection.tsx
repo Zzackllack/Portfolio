@@ -51,7 +51,7 @@ export default function ProjectsSection() {
   ];
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="py-20 fade-in">
       <h2 className="text-4xl font-bold text-center mb-12 glow">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
           Projects
@@ -59,7 +59,10 @@ export default function ProjectsSection() {
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <div key={project.title} className="glass p-6 rounded-xl hover-glow">
+          <div
+            key={project.title}
+            className="glass p-6 rounded-xl hover-glow slide-up"
+          >
             <project.icon className="w-8 h-8 text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-white">
               {project.title}
