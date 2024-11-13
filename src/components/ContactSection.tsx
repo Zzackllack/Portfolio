@@ -4,7 +4,6 @@ import { Mail, Github } from "lucide-react";
 export default function ContactSection() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission logic here -- NEEDS IMPLEMENTATION
@@ -13,13 +12,18 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 fade-in">
-      <h2 className="text-4xl font-bold text-center mb-12 glow">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-          Get in Touch
-        </span>
-      </h2>
-      <div className="max-w-4xl mx-auto glass p-8 rounded-xl slide-up">
+    <section id="contact" className="relative py-20 fade-in">
+      <div className="absolute inset-0 bg-red-600 bg-opacity-75 flex items-center justify-center z-10">
+        <p className="text-white text-2xl font-bold text-center">
+          Work in progress, sorry, use my E-Mail instead!
+        </p>
+      </div>
+      <div className="relative max-w-4xl mx-auto glass p-8 rounded-xl slide-up z-0">
+        <h2 className="text-4xl font-bold text-center mb-12 glow">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+            Get in Touch
+          </span>
+        </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-blue-300">
@@ -66,44 +70,44 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12 slide-up">
-        <h3 className="text-2xl font-semibold text-blue-300 mb-6">
-          Send a Message
-        </h3>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="email" className="block text-gray-300">
-              Your E-Mail
-            </label>
-            <input
-              type="email"
-              id="email"
-              className="w-full p-2 rounded bg-gray-800 text-gray-300"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="message" className="block text-gray-300">
-              Message
-            </label>
-            <textarea
-              id="message"
-              className="w-full p-2 rounded bg-gray-800 text-gray-300"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              required
-            />
-          </div>
-          <button
-            type="submit"
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-          >
-            Send
-          </button>
-        </form>
+        <div className="max-w-4xl mx-auto glass p-8 rounded-xl mt-12 slide-up">
+          <h3 className="text-2xl font-semibold text-blue-300 mb-6">
+            Send a Message
+          </h3>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label htmlFor="email" className="block text-gray-300">
+                Your E-Mail
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full p-2 rounded bg-gray-800 text-gray-300"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div>
+              <label htmlFor="message" className="block text-gray-300">
+                Message
+              </label>
+              <textarea
+                id="message"
+                className="w-full p-2 rounded bg-gray-800 text-gray-300"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+              />
+            </div>
+            <button
+              type="submit"
+              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+            >
+              Send
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   );
