@@ -37,30 +37,12 @@ export default function HeroSection() {
           <IconBox Icon={Music} text="Pianist" subtext="Classical & Modern" />
           <IconBox Icon={Dumbbell} text="Athlete" subtext="6 Years of Judo" />
         </div>
-        <div className="mt-8 space-x-4">
-          <a
-            href="https://zacklack.de/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-          >
-            Main Page
-          </a>
-          <a
-            href="https://privat.zacklack.de"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
-          >
-            Private Projects
-          </a>
-        </div>
       </div>
       <button
         onClick={() => scrollToSection("about")}
         className="mt-16 animate-bounce"
       >
-        <ArrowDown className="w-10 h-10 text-blue-400" />
+        <ArrowDown className="w-10 h-10 text-white" />
       </button>
     </section>
   );
