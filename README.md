@@ -1,4 +1,4 @@
-# Portfolio - React + TypeScript + Vite
+# Portfolio - React + TypeScript + Vite (WIP)
 
 This project is a personal portfolio website built with React, TypeScript, and Vite. It showcases various sections including an introduction, about me, projects, and contact information.
 
