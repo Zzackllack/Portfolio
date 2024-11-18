@@ -62,6 +62,7 @@ export default function ContactSection() {
               <p className="text-gray-300">
                 📚 Learning advanced Java and system administration
               </p>
+              <p className="text-gray-300">Enthusiastic since 2020</p>
             </div>
           </div>
         </div>
