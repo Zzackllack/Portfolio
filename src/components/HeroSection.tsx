@@ -58,16 +58,8 @@ export default function HeroSection() {
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
-            <IconBox
-              Icon={Code2}
-              text="Developer"
-              subtext="Web • Java • Python"
-            />
-            <IconBox
-              Icon={Terminal}
-              text="Tech Enthusiast"
-              subtext="Linux • Server Admin"  
-            />
+            <IconBox Icon={Code2} text="Developer" subtext="Web • Java • Python"/>
+            <IconBox Icon={Terminal} text="Tech Enthusiast" subtext="Linux • Server Admin"  />
             <IconBox Icon={GlobeLock} text="Thinkering" subtext="Firewall • Network" />
             <IconBox Icon={Music} text="Pianist" subtext="Classical & Modern" />
           </div>
