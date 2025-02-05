@@ -73,9 +73,9 @@
       0 0 20px rgba(59, 130, 246, 0.3), 0 0 30px rgba(59, 130, 246, 0.2);
   }
   .glass {
-    background: rgba(17, 25, 40, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(12px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
   .hover-glow {
     transition: all 0.3s ease;
@@ -145,7 +145,7 @@ html {
 }
 
 body {
-  @apply bg-gradient-to-br from-gray-900 via-blue-900/20 to-gray-900;
+  @apply bg-black;
   min-height: 100vh;
   background-attachment: fixed;
 }
@@ -161,19 +161,19 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-gray-900;
+  @apply bg-black;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-gray-700 rounded-full;
+  @apply bg-gray-800 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-gray-600;
+  @apply bg-gray-700;
 }
 
 @layer base {
