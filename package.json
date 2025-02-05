@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "4.5.3",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
