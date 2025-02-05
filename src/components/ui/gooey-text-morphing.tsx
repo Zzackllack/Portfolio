@@ -102,7 +102,7 @@ export function GooeyText({
               values="1 0 0 0 0
                       0 1 0 0 0
                       0 0 1 0 0
-                      0 0 0 255 -140"
+                      0 0 0 255 -40" // Changed from -140 to -40 for better visibility
             />
           </filter>
         </defs>
@@ -115,16 +115,16 @@ export function GooeyText({
         <span
           ref={text1Ref}
           className={cn(
-            "absolute inline-block select-none text-center text-6xl md:text-[60pt]",
-            "text-foreground",
+            "absolute inline-block select-none text-center text-3xl md:text-5xl", // Adjusted text sizes
+            "text-white", // Changed from text-foreground
             textClassName
           )}
         />
         <span
           ref={text2Ref}
           className={cn(
-            "absolute inline-block select-none text-center text-6xl md:text-[60pt]",
-            "text-foreground",
+            "absolute inline-block select-none text-center text-3xl md:text-5xl", // Adjusted text sizes
+            "text-white", // Changed from text-foreground
             textClassName
           )}
         />
