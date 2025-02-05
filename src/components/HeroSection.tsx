@@ -9,36 +9,47 @@ export default function HeroSection() {
   };
 
   const morphingTexts = [
-    "I Love Development",
-    "I Love Linux",
-    "I Love Python",
-    "I Love Piano",
-    "I Love Servers",
-    "I Love Tech",
-    "I Love Coding",
-    "I Love Java",
-    "I Love Web Dev",
-    "I Love NAS Admin",
+    "I",
+    "Love", 
+    "Development",
+    "I",
+    "Love", 
+    "Linux",
+    "I",
+    "Love", 
+    "Piano",
+    "I",
+    "Love", 
+    "Servers",
+    "I",
+    "Love", 
+    "Tech",
+    "I",
+    "Love", 
+    "Coding",
+    "I",
+    "Love", 
+    "Web Dev",
   ];
 
   return (
     <HeroHighlight containerClassName="min-h-screen">
       <section className="flex flex-col items-center justify-center pt-16 fade-in">
         <div className="text-center space-y-8 max-w-4xl px-4">
-          <div className="space-y-4">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6"> {/* Responsive text size */}
+          <div className="space-y-8"> {/* Changed from space-y-4 to space-y-8 */}
+            <h1 className="text-4xl md:text-6xl font-bold mb-12"> {/* Increased mb-6 to mb-12 */}
               Hello, I'm{" "}
               <Highlight className="text-white">
                 Cédric
               </Highlight>
             </h1>
-            <div className="h-32"> {/* Increased height for container */}
+            <div className="h-32 mt-16"> {/* Added mt-16 for top margin */}
               <GooeyText
                 texts={morphingTexts}
                 morphTime={1}
-                cooldownTime={0.25}
-                className="text-white" // Changed from text-gray-200
-                textClassName="!text-3xl md:!text-5xl" // Override text size
+                cooldownTime={1}
+                className="text-white pt-8" // Added pt-8 for padding top
+                textClassName="!text-3xl md:!text-5xl"
               />
             </div>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto mt-6">
