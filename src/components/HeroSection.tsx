@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Terminal, Music, Dumbbell, ArrowDown } from "lucide-react";
+import { Code2, Terminal, Music, Dumbbell, ArrowDown, GlobeLock } from "lucide-react";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { GooeyText } from "@/components/ui/gooey-text-morphing";
 
@@ -35,27 +35,26 @@ export default function HeroSection() {
   return (
     <HeroHighlight containerClassName="min-h-screen">
       <section className="flex flex-col items-center justify-center pt-16 fade-in">
-        <div className="text-center space-y-8 max-w-4xl px-4">
-          <div className="space-y-8"> {/* Changed from space-y-4 to space-y-8 */}
-            <h1 className="text-4xl md:text-6xl font-bold mb-12"> {/* Increased mb-6 to mb-12 */}
+        <div className="text-center max-w-4xl px-4">
+          <div className="-space-y-0.5"> {/* Changed from space-y-4 to space-y-8 */}
+            <h1 className="text-4xl md:text-6xl font-bold mb-8"> {/* Reduce from mb-12 */}
               Hello, I'm{" "}
               <Highlight className="text-white">
                 Cédric
               </Highlight>
             </h1>
-            <div className="h-32 mt-16"> {/* Added mt-16 for top margin */}
+            <div className="h-32 my-8"> {/* Change mt-12 to my-8 for symmetric spacing */}
               <GooeyText
                 texts={morphingTexts}
                 morphTime={1}
                 cooldownTime={1}
-                className="text-white pt-8" // Added pt-8 for padding top
+                className="text-white pt-8"
                 textClassName="!text-3xl md:!text-5xl"
               />
             </div>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto mt-6">
-              Based in Berlin, Germany, I'm passionate about{" "}
-              <Highlight className="text-white">modern web technologies</Highlight>
-              , coding, and everything that resolves around tech.
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto mt-8"> {/* Increase from mt-6 */}
+              Based in Berlin, Germany, I'm passionate about, coding, and {" "}
+              <Highlight className="text-white">everything that resolves around tech.</Highlight>
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
@@ -67,10 +66,10 @@ export default function HeroSection() {
             <IconBox
               Icon={Terminal}
               text="Tech Enthusiast"
-              subtext="Linux • Server Admin"
+              subtext="Linux • Server Admin"  
             />
+            <IconBox Icon={GlobeLock} text="Thinkering" subtext="Firewall • Network" />
             <IconBox Icon={Music} text="Pianist" subtext="Classical & Modern" />
-            <IconBox Icon={Dumbbell} text="Athlete" subtext="6 Years of Judo" />
           </div>
         </div>
         <button
