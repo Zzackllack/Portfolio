@@ -1,6 +1,6 @@
 import React from "react";
 import { Code2, Terminal, Music, Dumbbell, ArrowDown } from "lucide-react";
-import { HeroHighlight } from "@/components/ui/hero-highlight";
+import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 
 export default function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -12,20 +12,24 @@ export default function HeroSection() {
       <section className="flex flex-col items-center justify-center pt-16 fade-in">
         <div className="text-center space-y-8 max-w-4xl">
           <div className="space-y-4">
-            <h1 className="text-6xl font-bold glow">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 animate-gradient">
-                Hello, I'm Cédric
-              </span>
+            <h1 className="text-6xl font-bold">
+              Hello, I'm{" "}
+              <Highlight className="text-white">
+                Cédric
+              </Highlight>
             </h1>
-            <h2 className="text-2xl text-blue-200 glow slide-up">
+            <h2 className="text-2xl text-gray-200">
               Student Developer & Tech Enthusiast
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto slide-up">
-              Based in Berlin, Germany, I'm passionate about modern web
-              technologies, coding, and anything that resolves around tech.
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              Based in Berlin, Germany, I'm passionate about modern web technologies, coding, and {" "} 
+              <Highlight className="text-white"> 
+              anything
+              </Highlight>
+              that resolves around tech.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 slide-up">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             <IconBox
               Icon={Code2}
               text="Developer"
