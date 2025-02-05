@@ -35,17 +35,13 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group",
+        "relative h-[40rem] flex items-center bg-black justify-center w-full group",
         containerClassName
       )}
       onMouseMove={handleMouseMove}
     >
       <div 
-        className="absolute inset-0 pointer-events-none opacity-70" 
-        style={dotPattern('rgb(212 212 212)')} // neutral-300 for light mode
-      />
-      <div 
-        className="absolute inset-0 dark:opacity-70 opacity-0 pointer-events-none" 
+        className="absolute inset-0 opacity-70 pointer-events-none" 
         style={dotPattern('rgb(38 38 38)')} // neutral-800 for dark mode
       />
       <motion.div
@@ -54,14 +50,14 @@ export const HeroHighlight = ({
           ...dotPattern('rgb(99 102 241)'), // indigo-500
           WebkitMaskImage: useMotionTemplate`
             radial-gradient(
-              200px circle at ${mouseX}px ${mouseY}px,
+              250px circle at ${mouseX}px ${mouseY}px,
               black 0%,
               transparent 100%
             )
           `,
           maskImage: useMotionTemplate`
             radial-gradient(
-              200px circle at ${mouseX}px ${mouseY}px,
+              250px circle at ${mouseX}px ${mouseY}px,
               black 0%,
               transparent 100%
             )
@@ -100,7 +96,7 @@ export const Highlight = ({
         display: "inline",
       }}
       className={cn(
-        `relative inline-block pb-1 px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500`,
+        `relative inline-block pb-1 px-1 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500`,
         className
       )}
     >
