@@ -13,8 +13,8 @@ function App() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black opacity-70" />
       <div className="relative z-10">
         <NavBar />
+        <HeroSection />
         <main className="container mx-auto px-4">
-          <HeroSection />
           <AboutSection />
           <ProjectsSection />
           <TimelineSection />
