@@ -55,6 +55,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             [0, 1]
           );
           const dotOpacity = useTransform(dotProgress, [0, 0.5, 1], [0, 1, 0]);
+          const textColor = useTransform(
+            dotProgress,
+            [0, 0.5, 1],
+            ["rgb(115 115 115)", "rgb(255 255 255)", "rgb(115 115 115)"]
+          );
+          const textScale = useTransform(
+            dotProgress,
+            [0, 0.5, 1],
+            [1, 1.05, 1]
+          );
           
           return (
             <div
@@ -85,15 +95,29 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                     }}
                   />
                 </div>
-                <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500">
+                <motion.h3 
+                  className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold transition-all duration-300"
+                  style={{
+                    color: textColor,
+                    scale: textScale,
+                    transformOrigin: "left center"
+                  }}
+                >
                   {item.title}
-                </h3>
+                </motion.h3>
               </div>
 
               <div className="relative pl-20 pr-4 md:pl-4 w-full">
-                <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500">
+                <motion.h3 
+                  className="md:hidden block text-2xl mb-4 text-left font-bold"
+                  style={{
+                    color: textColor,
+                    scale: textScale,
+                    transformOrigin: "left center"
+                  }}
+                >
                   {item.title}
-                </h3>
+                </motion.h3>
                 {item.content}
               </div>
             </div>
