@@ -4,6 +4,56 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
     const timelineData = [
         {
+            title: "Q3 2024",
+            content: (
+                <div>
+                    <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Started using a bit of PHP for Session checking and looking into threeJS, bought my own domain created my own email. Created my own error sites and took the computer sciene advanced course at my school. Expanded my jellyfin media Server. 
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://picperf.io/https://laravelnews.s3.amazonaws.com/images/phplogo.jpg"
+                                alt="Python Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://miro.medium.com/v2/resize:fit:687/1*m0zrCLd2wY29-jiHaxYsgA.png"
+                                alt="Cloudflare Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://external-preview.redd.it/jellyfin-10-9-0-released-with-many-new-features-v0-nP4hquZJgJK4d0HPvShs1jYPdzq8cnjI0Lltn41aew0.jpg?auto=webp&s=a25c92ac63dd5bbd5946d1e7e8b692f4632ee700"
+                                alt="Minecraft Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://media.istockphoto.com/id/1028603300/de/vektor/vektor-internet-welt.jpg?s=612x612&w=0&k=20&c=BB6RRp2DtBZz-ZO2YKAlkMt19FyMm4cMTcLo42snU_M="
+                                alt="Self-hosting Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "Q2 2024",
             content: (
                 <div>
