@@ -4,6 +4,38 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
     const timelineData = [
         {
+            title: "Q1 2025",
+            content: (
+                <div>
+                    <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Experimented with Cloudflare Tunnels, Cloudflare Proxy, advanced Network structures and security. Joined the Startup "Schulwebseiten.de" and started working on much larger Codebases, with cms, api and databases.
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/30XEWiWepbpcI3DdBHLn4o/49943f1bfe8d4436aeff07af248e3812/image1-18.png"
+                                alt="PHP Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://schulwebseiten.de/images/favicon.ico"
+                                alt="ThreeJS Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "Q4 2024",
             content: (
                 <div>
