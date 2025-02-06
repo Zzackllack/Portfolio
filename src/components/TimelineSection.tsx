@@ -4,6 +4,56 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
     const timelineData = [
         {
+            title: "Q4 2024",
+            content: (
+                <div>
+                    <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Used more complex React in my Politics Quote Quiz and wrote my first backend in NodeJS, used SQL and PHPmyAdmin as a databse for the first time in a backend. Used Railway as a hosting for the backend. Joined my Schools GitHub Organization and programmed the GoetheMC Website.
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://kappa.lol/mf8qZ"
+                                alt="PHP Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://kappa.lol/mV3qE"
+                                alt="ThreeJS Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://www.agentur-kreativdenker.de/wp-content/uploads/2021/04/phpmyadmin.jpg"
+                                alt="Jellyfin Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://docs.vendure.io/assets/images/deploy-to-railway-0bd04cd6a55fe3372e573a5ecced91ce.webp"
+                                alt="Internet Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "Q3 2024",
             content: (
                 <div>
