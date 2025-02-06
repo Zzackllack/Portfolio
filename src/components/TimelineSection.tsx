@@ -7,39 +7,47 @@ export default function TimelineSection() {
             title: "2023",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+                    <p className="text-gray-300 text-xs md:text-sm font-normal mb-8">
                         Launched my portfolio website showcasing projects like Website Scanner,
                         NAS Management, and Discord Bot.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
-                            src="https://placeimg.com/500/500/tech"
-                            alt="Portfolio Project"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/tech/grayscale"
-                            alt="Portfolio Project"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/arch"
-                            alt="Portfolio Project"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/tech/sepia"
-                            alt="Portfolio Project"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/tech"
+                                alt="Portfolio Project"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/tech/grayscale"
+                                alt="Portfolio Project"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/arch"
+                                alt="Portfolio Project"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/tech/sepia"
+                                alt="Portfolio Project"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
                     </div>
                 </div>
             ),
@@ -48,39 +56,47 @@ export default function TimelineSection() {
             title: "2022",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+                    <p className="text-gray-300 text-xs md:text-sm font-normal mb-8">
                         Explored new technologies and built multiple web apps using React,
                         TypeScript, and Tailwind CSS.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
-                            src="https://placeimg.com/500/500/nature"
-                            alt="Project Snapshot"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/tech"
-                            alt="Project Snapshot"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/arch"
-                            alt="Project Snapshot"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/people"
-                            alt="Project Snapshot"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/nature"
+                                alt="Project Snapshot"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/tech"
+                                alt="Project Snapshot"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/arch"
+                                alt="Project Snapshot"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/people"
+                                alt="Project Snapshot"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
                     </div>
                 </div>
             ),
@@ -89,52 +105,60 @@ export default function TimelineSection() {
             title: "Changelog",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+                    <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
                         Recent updates include:
                     </p>
-                    <div className="mb-8">
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+                    <div className="glass p-6 rounded-lg mb-8">
+                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
                             ✅ Added new project: Website Scanner
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
                             ✅ Updated NAS Management features
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
                             ✅ Improved Discord Bot interactions
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
+                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
                             ✅ Overhauled UI design for HeroSection
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
-                            src="https://placeimg.com/500/500/any"
-                            alt="UI Update"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/tech"
-                            alt="Feature Update"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/arch"
-                            alt="Project Update"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
-                        <img
-                            src="https://placeimg.com/500/500/people"
-                            alt="Community Update"
-                            width={500}
-                            height={500}
-                            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-lg"
-                        />
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/any"
+                                alt="UI Update"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/tech"
+                                alt="Feature Update"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/arch"
+                                alt="Project Update"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://placeimg.com/500/500/people"
+                                alt="Community Update"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
                     </div>
                 </div>
             ),
