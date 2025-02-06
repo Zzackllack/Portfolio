@@ -4,12 +4,62 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
     const timelineData = [
         {
+            title: "Q1 2024",
+            content: (
+                <div>
+                    <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Started learning programming concepts by using LEGO Mindstorms. Learned HTML and CSS and started building my first website in my computer Sciene course. Learned basics of Java in class. 
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://t3n.de/news/wp-content/uploads/2012/01/html5_featuredimage.jpg"
+                                alt="HTML Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://www.agentur-kreativdenker.de/wp-content/uploads/2020/10/was-ist-css3.jpg"
+                                alt="CSS Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://www.promobricks.de/wp-content/uploads/2020/09/lego-ev3-classroom-mindstorms.jpg"
+                                alt="Lego Mindstorms EV3"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://kappa.lol/4oM00"
+                                alt="Java Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "2023",
             content: (
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Joined GitHub on 27th October 2023 and started looking into source control tools like git and Apache. Bought my first camera gimbal and started exploring videography.
+                            Joined GitHub on 27th October 2023 and started looking into source control tools like git and Apache. Bought my first camera gimbal and started exploring videography. Started taking the Computer Sciene course at my school and learned about basic cryptography concepts e.g. Caesar Cipher and Vigenère Cipher, RSA.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
