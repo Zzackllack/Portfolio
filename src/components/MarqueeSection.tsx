@@ -84,10 +84,10 @@ export function MarqueeSection() {
   ];
 
   return (
-    <section className="py-10 bg-black">
-      <h2 className="text-center text-3xl text-white mb-6">
-        Our Partner Logos
-      </h2>
+    <section className="py-20 fade-in bg-black">
+        <h2 className="text-4xl font-bold text-center mb-12 glow bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+            Technologies I've Worked With
+        </h2>
       <Marquee>
         {logosArr.map((Logo, index) => (
           <div
