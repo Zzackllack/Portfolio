@@ -4,6 +4,56 @@ import { Timeline } from "@/components/ui/timeline";
 export default function TimelineSection() {
     const timelineData = [
         {
+            title: "Q2 2024",
+            content: (
+                <div>
+                    <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Started learning python and created my Website-scanner project in my summer holidays. I also got my first server and started exploring the world of self-hosting. I started self hosting minecraft servers my discord bots and my websites, also I started using Cloudflare.
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://www.svgrepo.com/show/376344/python.svg"
+                                alt="Python Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://upload.wikimedia.org/wikipedia/commons/9/94/Cloudflare_Logo.png"
+                                alt="Cloudflare Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://wallpapers.com/images/hd/hd-minecraft-logo-3nehf0ctjgk3d0zp.jpg"
+                                alt="Minecraft Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg hover-glow transition-all duration-300">
+                            <img
+                                src="https://repository-images.githubusercontent.com/456258633/d8124bc5-9c7a-4ea8-a718-a954c5a56298"
+                                alt="Self-hosting Logo"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            ),
+        },
+        {
             title: "Q1 2024",
             content: (
                 <div>
