@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
+import { MarqueeSection } from "./components/MarqueeSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import TimelineSection from "./components/TimelineSection";
@@ -14,6 +15,7 @@ function App() {
       <div className="relative z-10">
         <NavBar />
         <HeroSection />
+        <MarqueeSection />
         <main className="container mx-auto px-4">
           <AboutSection />
           <ProjectsSection />
