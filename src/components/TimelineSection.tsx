@@ -166,8 +166,8 @@ export default function TimelineSection() {
     ];
 
     return (
-        <section id="timeline" className="py-20 fade-in">
-            <h2 className="text-4xl font-bold text-center mb-12 glow">
+        <section id="timeline" className="py-12 fade-in"> {/* Changed from py-20 to py-12 */}
+            <h2 className="text-5xl font-bold text-center mb-6 glow"> {/* Changed from mb-12 to mb-6 */}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
                     Timeline
                 </span>

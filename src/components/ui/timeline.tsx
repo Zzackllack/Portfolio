@@ -37,13 +37,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
+      <div className="max-w-7xl mx-auto py-8 px-4 md:px-8 lg:px-10"> {/* Changed from py-20 to py-8 */}
+        <h2 className="text-lg md:text-3xl mb-4 text-white max-w-4xl">
           Changelog from my journey
         </h2>
         <p className="text-gray-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on my portfolio for the past 2 years. Here&apos;s
-          a timeline of my journey.
+          I&apos;ve been interested in tech for the past 2 years. Here&apos;s a timeline of my journey.
         </p>
       </div>
 
