@@ -136,31 +136,19 @@ export default function TimelineSection() {
             ),
         },
         {
-            title: "Changelog",
+            title: "2017-2020",
             content: (
                 <div>
-                    <p className="text-gray-300 text-xs md:text-sm font-normal mb-4">
-                        Recent updates include:
-                    </p>
                     <div className="glass p-6 rounded-lg mb-8">
-                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
-                            ✅ Added new project: Website Scanner
-                        </div>
-                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
-                            ✅ Updated NAS Management features
-                        </div>
-                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm mb-2">
-                            ✅ Improved Discord Bot interactions
-                        </div>
-                        <div className="flex gap-2 items-center text-gray-300 text-xs md:text-sm">
-                            ✅ Overhauled UI design for HeroSection
-                        </div>
+                        <p className="text-gray-300 text-xs md:text-sm font-normal">
+                            Started exploring the world of tech by getting my first tablet. Explored modding games. Aswell constantly playing piano.
+                        </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                         <div className="glass p-4 rounded-lg">
                             <img
-                                src="https://placeimg.com/500/500/any"
-                                alt="UI Update"
+                                src="https://www.klavierbauer.de/wp-content/uploads/2022/07/na_yamaha_u3sh2-1024x684.jpg"
+                                alt="Yamaha Piano"
                                 width={500}
                                 height={500}
                                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
@@ -168,26 +156,8 @@ export default function TimelineSection() {
                         </div>
                         <div className="glass p-4 rounded-lg">
                             <img
-                                src="https://placeimg.com/500/500/tech"
-                                alt="Feature Update"
-                                width={500}
-                                height={500}
-                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-                            />
-                        </div>
-                        <div className="glass p-4 rounded-lg">
-                            <img
-                                src="https://placeimg.com/500/500/arch"
-                                alt="Project Update"
-                                width={500}
-                                height={500}
-                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-                            />
-                        </div>
-                        <div className="glass p-4 rounded-lg">
-                            <img
-                                src="https://placeimg.com/500/500/people"
-                                alt="Community Update"
+                                src="https://images.samsung.com/is/image/samsung/de-feature-galaxy-tab-a-7-0-2016-t280--57274518?$FB_TYPE_A_MO_JPG$"
+                                alt="Samsung Galaxy Tab A6 2016"
                                 width={500}
                                 height={500}
                                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
