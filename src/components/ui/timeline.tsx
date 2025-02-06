@@ -62,7 +62,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           const textScale = useTransform(
             dotProgress,
             [0, 0.5, 1],
-            [1, 1.05, 1]
+            [1, 1.2, 1] // Increased scale value for bigger transition
           );
           
           return (
