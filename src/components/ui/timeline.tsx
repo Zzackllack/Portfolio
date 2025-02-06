@@ -42,7 +42,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Changelog from my journey
         </h2>
         <p className="text-gray-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been interested in tech for the past 2 years. Here&apos;s a timeline of my journey.
+          I&apos;ve been interested in tech since 2017. Here&apos;s a timeline of my journey.
         </p>
       </div>
 
@@ -53,16 +53,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             [index / data.length, (index + 1) / data.length],
             [0, 1]
           );
-          const dotOpacity = useTransform(dotProgress, [0, 0.5, 1], [0, 1, 0]);
+          const dotOpacity = useTransform(dotProgress, [0, 0.3, 1], [0, 1, 0]); // Changed from [0, 0.5, 1] to [0, 0.3, 1]
           const textColor = useTransform(
             dotProgress,
-            [0, 0.5, 1],
+            [0, 0.3, 1], // Changed from [0, 0.5, 1] to [0, 0.3, 1]
             ["rgb(115 115 115)", "rgb(255 255 255)", "rgb(115 115 115)"]
           );
           const textScale = useTransform(
             dotProgress,
-            [0, 0.5, 1],
-            [1, 1.2, 1] // Increased scale value for bigger transition
+            [0, 0.3, 1], // Changed from [0, 0.5, 1] to [0, 0.3, 1]
+            [1, 1.5, 1] // Increased scale value for bigger transition
           );
           
           return (
