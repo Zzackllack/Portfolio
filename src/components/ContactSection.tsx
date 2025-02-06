@@ -52,7 +52,7 @@ export default function ContactSection() {
               Current Status
             </h3>
             <div className="space-y-4">
-              <p className="text-gray-300">🎓 Studying in Q1 (11th Grade)</p>
+              <p className="text-gray-300">🎓 Studying in Q2 (11th Grade)</p>
               <p className="text-gray-300">
                 💻 Working on various programming projects
               </p>

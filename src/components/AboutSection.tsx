@@ -25,7 +25,7 @@ export default function AboutSection() {
             Background
           </h3>
           <p className="text-gray-300 leading-relaxed">
-            Currently in Q1 (11th Grade) in Berlin, I'm deeply passionate about
+            Currently in Q2 (11th Grade) in Berlin, I'm deeply passionate about
             technology and software development. My journey in programming
             started with simple scripts and has now evolved into building Java
             applications and managing servers.
