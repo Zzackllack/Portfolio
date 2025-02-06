@@ -9,13 +9,22 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Joined GitHub on 27th October 2023 and started looking into source control tools like git and Apache.
+                            Joined GitHub on 27th October 2023 and started looking into source control tools like git and Apache. Bought my first camera gimbal and started exploring videography.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                         <div className="glass p-4 rounded-lg">
                             <img
                                 src="https://github.githubassets.com/assets/profile-joined-github-dark-6369d0efb8b9.svg"
+                                alt="Joined GitHub"
+                                width={500}
+                                height={500}
+                                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+                            />
+                        </div>
+                        <div className="glass p-4 rounded-lg">
+                            <img
+                                src="https://www.drohnen.de/wp-content/uploads/2023/03/Insta360-Flow-Neuer-Smartphone-Stabilisator-vorgestellt.jpg"
                                 alt="Joined GitHub"
                                 width={500}
                                 height={500}
@@ -56,7 +65,7 @@ export default function TimelineSection() {
                         </div>
                         <div className="glass p-4 rounded-lg">
                             <img
-                                src="https://placeimg.com/500/500/arch"
+                                src="https://www.beat.de/media/beat/styles/tec_frontend_opengraph/public/images/2019/09/30/image-75808--28821.jpg?itok=fpBp0riW"
                                 alt="Project Snapshot"
                                 width={500}
                                 height={500}
@@ -65,7 +74,7 @@ export default function TimelineSection() {
                         </div>
                         <div className="glass p-4 rounded-lg">
                             <img
-                                src="https://placeimg.com/500/500/people"
+                                src="https://d1pxyp3tcli0z.cloudfront.net/files/651297f03e67ec0008d540ec/DT-990-PRO-Ohrpolster-beyerdynamic-xl.jpg"
                                 alt="Project Snapshot"
                                 width={500}
                                 height={500}
