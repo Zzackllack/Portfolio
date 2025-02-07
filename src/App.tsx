@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="min-h-screen text-white relative">
       {/* Background with multiple layers for depth */}
-      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-purple-900 to-slate-900 opacity-50" />
-      <div className="fixed inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-900/20 via-blue-900 to-black opacity-70" />
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-950 via-gray-900 to-black opacity-50" />
+      <div className="fixed inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-950/20 via-gray-900 to-black opacity-70" />
       <div className="fixed inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       
       {/* Content */}
