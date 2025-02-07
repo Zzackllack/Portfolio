@@ -47,22 +47,8 @@ export default function Footer() {
           </div>
 
           {/* Right Section - Quick Links */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="space-y-4">
-              <h3 className="font-semibold text-gray-200">Navigation</h3>
-              <ul className="space-y-2">
-                {["About", "Projects", "Timeline", "Contact"].map((item) => (
-                  <li key={item}>
-                    <a
-                      href={`#${item.toLowerCase()}`}
-                      className="text-gray-400 hover:text-blue-400 transition-colors"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <h3 className="font-semibold text-gray-200">Links</h3>
               <ul className="space-y-2">
@@ -94,6 +80,66 @@ export default function Footer() {
                     className="text-gray-400 hover:text-blue-400 transition-colors"
                   >
                     Server Console
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <h3 className="font-semibold text-gray-200">Navigation</h3>
+              <ul className="space-y-2">
+                {["About", "Projects", "Timeline", "Contact"].map((item) => (
+                  <li key={item}>
+                    <a
+                      href={`#${item.toLowerCase()}`}
+                      className="text-gray-400 hover:text-blue-400 transition-colors"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="space-y-4">
+              <h3 className="font-semibold text-gray-200">Legal</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/impressum"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    Legal Notice
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/datenschutz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    Privay Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/nutzungsbedingungen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    Terms of Use
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/cookie-richtlinie"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    Cookie Policy
                   </a>
                 </li>
               </ul>
