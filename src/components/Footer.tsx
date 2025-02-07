@@ -104,7 +104,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="/impressum"
+                    href="https://zacklack.de/impressum"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -114,7 +114,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/datenschutz"
+                    href="https://zacklack.de/datenschutz"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -124,7 +124,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/nutzungsbedingungen"
+                    href="https://zacklack.de/nutzungsbedingungen"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -134,7 +134,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/cookie-richtlinie"
+                    href="https://zacklack.de/cookies"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
