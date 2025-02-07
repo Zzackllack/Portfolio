@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Terminal, Music, ArrowDown, GlobeLock } from "lucide-react";
+import { Code2, Terminal, Music, Dumbbell, ArrowDown, GlobeLock } from "lucide-react";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { GooeyText } from "@/components/ui/gooey-text-morphing";
 
@@ -65,7 +65,7 @@ export default function HeroSection() {
           </div>
         </div>
         <button
-          onClick={() => scrollToSection("about")}
+          onClick={() => scrollToSection("technologies")}
           className="mt-16 animate-bounce"
         >
           <ArrowDown className="w-10 h-10 text-white" />

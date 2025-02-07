@@ -28,7 +28,7 @@ const technologies = [
 
 export default function MarqueeSection() {
   return (
-    <section className="py-12 bg-transparent backdrop-blur-sm">
+    <section id="technologies" className="py-12 bg-transparent backdrop-blur-sm">
       <h2 className="text-4xl font-bold text-center mb-12 glow">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
           Technologies I have worked with
