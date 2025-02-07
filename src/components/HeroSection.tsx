@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Terminal, Music, Dumbbell, ArrowDown, GlobeLock } from "lucide-react";
+import { Code2, Terminal, Music, ArrowDown, GlobeLock } from "lucide-react";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { GooeyText } from "@/components/ui/gooey-text-morphing";
 

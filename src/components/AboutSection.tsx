@@ -1,6 +1,3 @@
-import React from "react";
-import { Code2, Server, Cpu, Database } from "lucide-react";
-
 export default function AboutSection() {
   const skills = [
     { category: "Languages", items: ["TypeScript", "Java", "Python", "SQL"] },

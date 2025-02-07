@@ -1,5 +1,4 @@
-import React from "react";
-import { Bot, Globe, Server, Wrench, Database, Cloud } from "lucide-react";
+import { Bot, Globe, Server, Wrench, Cloud } from "lucide-react";
 
 export default function ProjectsSection() {
   const projects = [

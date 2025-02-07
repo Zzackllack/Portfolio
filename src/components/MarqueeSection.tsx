@@ -1,5 +1,4 @@
 // src/components/MarqueeSection.tsx
-import * as React from "react";
 import { Marquee } from "@/components/ui/marquee";
 
 const Logos = {
