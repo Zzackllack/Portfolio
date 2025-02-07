@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import { MarqueeSection } from "./components/MarqueeSection";
+import MarqueeSection from "./components/MarqueeSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import TimelineSection from "./components/TimelineSection";
