@@ -10,12 +10,19 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white relative">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-900 via-black to-black opacity-70" />
+    <div className="min-h-screen text-white relative">
+      {/* Background with multiple layers for depth */}
+      <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900 via-purple-900 to-slate-900 opacity-50" />
+      <div className="fixed inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-indigo-900/20 via-blue-900 to-black opacity-70" />
+      <div className="fixed inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
+      
+      {/* Content */}
       <div className="relative z-10">
         <NavBar />
         <HeroSection />
-        <MarqueeSection />
+        <div className="mx-auto">
+          <MarqueeSection />
+        </div>
         <main className="container mx-auto px-4">
           <AboutSection />
           <ProjectsSection />
