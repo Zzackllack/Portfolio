@@ -40,7 +40,7 @@ export default function Footer() {
                   href="mailto:contact@zacklack.de"
                   className="hover:text-blue-400"
                 >
-                  <Icons.logo className="w-5 h-5" />
+                  <Icons.mail className="w-5 h-5" />
                 </a>
               </Button>
             </div>
