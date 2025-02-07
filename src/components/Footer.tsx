@@ -83,7 +83,17 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
                   >
-                    Private Projects
+                    Login Page
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://zacklack.de:8443"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition-colors"
+                  >
+                    Server Console
                   </a>
                 </li>
               </ul>
