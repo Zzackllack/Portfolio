@@ -4,8 +4,7 @@ export default function ProjectsSection() {
   const projects = [
     {
       title: "Website Scanner",
-      description:
-        "Python tool for scanning and downloading media files from webpages",
+      description:"Python tool for scanning and downloading media files from webpages",
       icon: Bot,
       tech: ["Python", "Web Scraping", "File Management"],
       link: "https://github.com/Zzackllack/Websites/tree/main/Website-scanner",
@@ -19,19 +18,18 @@ export default function ProjectsSection() {
       link: "#",
     },
     {
-      title: "Discord Bot",
-      description:
-        "Feature-rich Discord bot with advanced automation capabilities",
+      title: "Discord Bots",
+      description: "Feature-rich Discord bots with advanced capabilities",
       icon: Bot,
       tech: ["Python", "Discord.py", "APIs"],
       link: "#",
     },
     {
-      title: "Portfolio Website",
-      description: "Modern web application showcasing my projects and skills",
+      title: "School Dashboard",
+      description: "A Dashboard for displaying substition plans the school calendar, and more", 
       icon: Globe,
-      tech: ["React", "TypeScript", "Tailwind"],
-      link: "https://github.com/Zzackllack/Portfolio",
+      tech: ["React", "TypeScript", "Tailwind", "Full Stack", "Springboot"],
+      link: "https://goethe-dashboard.zacklack.de/",
     },
     {
       title: "Flipper Zero Scripts",
@@ -41,10 +39,10 @@ export default function ProjectsSection() {
       link: "#",
     },
     {
-      title: "Email Server",
-      description: "Self-hosted email server setup with multiple domains",
+      title: "Websites",
+      description: "Various web applications and tools for different purposes, just look at my GitHub",
       icon: Cloud,
-      tech: ["SMTP/IMAP", "DNS", "Security"],
+      tech: ["TypeScript", "React", "Tailwind"],
       link: "#",
     },
   ];
@@ -58,9 +56,12 @@ export default function ProjectsSection() {
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project) => (
-          <div
-            key={project.title}
-            className="glass p-6 rounded-xl hover-glow slide-up"
+          <a 
+            href={project.link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            key={project.title} 
+            className={`block glass p-6 rounded-xl hover-glow slide-up ${project.link === "#" ? "cursor-not-allowed" : "cursor-pointer"}`}
           >
             <project.icon className="w-8 h-8 text-blue-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2 text-white">
@@ -77,7 +78,7 @@ export default function ProjectsSection() {
                 </span>
               ))}
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
