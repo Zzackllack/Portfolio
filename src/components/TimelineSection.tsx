@@ -8,7 +8,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Experimented with Cloudflare Tunnels, Cloudflare Proxy, advanced Network structures and security. Joined the Startup "Schulwebseiten.de" and started working on much larger Codebases, with cms, api and databases.
+                            Experimented with Cloudflare Tunnels, Cloudflare Proxy, advanced network structures and security. Joined the startup "Schulwebseiten.de" and began working with much larger codebases incorporating CMS, API, and database systems.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -40,7 +40,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Used more complex React in my Politics Quote Quiz and wrote my first backend in NodeJS, used SQL and PHPmyAdmin as a databse for the first time in a backend. Used Railway as a hosting for the backend. Joined my Schools GitHub Organization and programmed the GoetheMC Website.
+                            Implemented more complex React features in my Politics Quote Quiz and developed my first backend using NodeJS. Utilized SQL and PHPMyAdmin as database solutions for the first time in backend development. Deployed using Railway as a hosting platform. Joined my school's GitHub organization and developed the GoetheMC website.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -90,7 +90,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Started using a bit of PHP for Session checking and looking into threeJS, bought my own domain created my own email. Created my own error sites and took the computer sciene advanced course at my school. Expanded my jellyfin media Server. 
+                            Began utilizing PHP for session management and explored ThreeJS. Acquired my own domain and established a personal email address. Created custom error pages and enrolled in the computer science advanced course at my school. Expanded my Jellyfin media server capabilities.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -140,7 +140,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Started learning python and created my Website-scanner project in my summer holidays. I also got my first server and started exploring the world of self-hosting. I started self hosting minecraft servers my discord bots and my websites, also I started using Cloudflare.
+                            Started learning Python and developed my Website-scanner project during summer break. Acquired my first server and began exploring self-hosting solutions. Implemented self-hosted environments for Minecraft servers, Discord bots, and personal websites. Started utilizing Cloudflare services for improved security and performance.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -190,7 +190,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Started learning programming concepts by using LEGO Mindstorms. Learned HTML and CSS and started building my first website in my computer Sciene course. Learned basics of Java in class. 
+                            Began learning programming concepts through LEGO Mindstorms. Acquired HTML and CSS skills and developed my first website in my computer science course. Learned Java fundamentals as part of the curriculum.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -240,7 +240,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Joined GitHub on 27th October 2023 and started looking into source control tools like git and Apache. Bought my first camera gimbal and started exploring videography. Started taking the Computer Sciene course at my school and learned about basic cryptography concepts e.g. Caesar Cipher and Vigenère Cipher, RSA.
+                            Joined GitHub on October 27, 2023 and began exploring version control tools like Git and Apache. Purchased my first camera gimbal and ventured into videography. Enrolled in the Computer Science course at my school where I learned foundational cryptography concepts including Caesar Cipher, Vigenère Cipher, and RSA encryption.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -272,7 +272,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Bought my first VR Headset and started exploring Virtual Desktop. Aswell I bought professional audio equipment like a audio interface and a Beyerdynamic DT990 PRO. 
+                            Purchased my first VR headset and began exploring Virtual Desktop capabilities. Additionally, invested in professional audio equipment including an audio interface and Beyerdynamic DT990 PRO headphones.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -322,7 +322,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Bought my first Synology NAS and started exploring NAS Management and Docker. Also I bought a new Car Multimedia System and learned about Can-Bus and OBD2 protocols. I also started exploring IoT and built a few projects around it.
+                            Acquired my first Synology NAS and explored NAS management and Docker containerization. Also purchased a new car multimedia system and studied CAN-Bus and OBD2 protocols. Began exploring IoT technologies and developed several projects in this domain.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -372,7 +372,7 @@ export default function TimelineSection() {
                 <div>
                     <div className="glass p-6 rounded-lg mb-8 hover-glow transition-all duration-300">
                         <p className="text-gray-300 text-xs md:text-sm font-normal">
-                            Started exploring the world of tech by getting my first tablet. Explored modding games. Aswell constantly playing piano.
+                            Started exploring technology by acquiring my first tablet. Developed interest in game modding while continuing to practice piano consistently.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
