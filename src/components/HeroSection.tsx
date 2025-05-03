@@ -9,27 +9,13 @@ export default function HeroSection() {
   };
 
   const morphingTexts = [
-    "I",
-    "Love", 
-    "Development",
-    "I",
-    "Love", 
-    "Linux",
-    "I",
-    "Love", 
-    "Piano",
-    "I",
-    "Love", 
-    "Servers",
-    "I",
-    "Love", 
-    "Tech",
-    "I",
-    "Love", 
-    "Coding",
-    "I",
-    "Love", 
-    "Web Dev",
+    "👨🏼‍💻 Development",
+    "🐧 Linux",
+    "🎹 Piano",
+    "🧑‍🔧 Servers",
+    "🚀 Tech",
+    "💻 Coding",
+    "🌐 Web Dev",
   ];
 
   return (
